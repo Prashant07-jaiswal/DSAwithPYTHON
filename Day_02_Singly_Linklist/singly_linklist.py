@@ -1,4 +1,4 @@
-#This is for creting Node 
+#This is for creating Node 
 class Node:
 
     #info is the data stored in first block and address is stored in second block
@@ -7,7 +7,7 @@ class Node:
         self.next = address
 
 #for Creating and performing Operation on singly linklist
-class Singlylinklist:
+class Singlylinklist():
 
     #head is pointing on first node of LL
     def __init__(self,head=None):
